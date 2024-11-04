@@ -1,4 +1,8 @@
-<section class={"min-h-screen flex flex-col px-4"}>
+<script>
+    export let id;
+</script>
+
+<section {id} class={"min-h-screen flex flex-col px-4"}>
     <div class="flex flex-col max-w-[1400px] mx-auto w-full">
         <slot />
     </div>
