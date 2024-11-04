@@ -1,2 +1,7 @@
+<script>
+  import Hero from "../components/Hero.svelte";
 
-<h1 class="mx-10">Hello and welcome to my site</h1>
+</script>
+<main class="flex flex-col">
+    <Hero />
+</main>
