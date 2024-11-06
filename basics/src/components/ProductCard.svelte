@@ -1,5 +1,4 @@
 <script>
-    export let index
     export let productFeature
 </script>
 

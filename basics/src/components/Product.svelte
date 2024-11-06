@@ -35,7 +35,7 @@
 </script>
 
 <SectionWrapper id="product">
-    <div class="flex fle-col gap-10 sm:gap-14 md:gap-24 flex-1 items-center justify-center pb-10 md:pb-14">
+    <div class="flex flex-col gap-10 sm:gap-14 md:gap-24 flex-1 items-center justify-center pb-10 md:pb-14">
         <div class="flex flex-col gap-2">
             <p class="opacity-60 text-base sm:text-lg md:text-xl text-center">
                 Start your lifetime <span class="text-indigo-400">gym streak</span> today
@@ -45,7 +45,7 @@
             </h3>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-14 lg:gap-20 relative text-base">
-            {#each productFeatures as productFeature}
+            {#each productFeatures as productFeature, index}
             <ProductCard {productFeature} {index}>
                 {#if index===0}
                 Experience a beginner exercise <span class="text-indigo-400 font-medium">master</span> class
